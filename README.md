@@ -1,5 +1,7 @@
 `templ/` - Jak ma wyglądać każdy projekt na początku żeby było bajla
 
+Zignorujcie `#define CP_UTF8 65001` w plikach bo coś mi kompilator nie łapał i musiałem dodać
+
 Korzystajcie jak najwięcej z podpowiedzi clion ;)
 
 ## Biblioteki do zapamiętania:
@@ -19,7 +21,7 @@ Korzystajcie jak najwięcej z podpowiedzi clion ;)
     - `strlen(char*)` - zwraca długość tekstu
 - inne funkcje
     - `itoa(int, char*, int)` - zmienia liczbe na tekst
-    - `srand(NULL)` - ustawia ziarno (seed) dla generatora liczb losowych
+    - `srand(int)` - ustawia ziarno (seed) dla generatora liczb losowych
     - `rand()` - losuje liczbe
 
 #### Po przykłady patrzcie do zadań

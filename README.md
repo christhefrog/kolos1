@@ -13,7 +13,6 @@ Korzystajcie jak najwięcej z podpowiedzi clion ;)
     
     przykład:
     ```c
-    time_t data = time(NULL);
     time_t czas = 0;
     time(&czas);
     printf("Obecna data: %s\n", ctime(&czas));```
